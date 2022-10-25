@@ -90,12 +90,9 @@ void  SubmoduleDaisyPatchSm::init_audio ()
 
    _codec.Init (i2c2);
 
+  const AudioHandle::Config ah_config; 
    _audio.Init (
-      {
-         .blocksize = 48,
-         .samplerate = SaiHandle::Config::SampleRate::SAI_48KHZ,
-         .postgain = 1.f,
-      },
+      ah_config,
       sai_1_handle
    );
 
