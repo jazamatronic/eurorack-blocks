@@ -13,19 +13,19 @@
    'pins': {
       'CI1': {
          'accept': ['CvIn'],
-         'bind': 'adc(0)',
+         'bind': 'adc(4)',
       },
       'CI2': {
          'accept': ['CvIn'],
-         'bind': 'adc(1)',
+         'bind': 'adc(5)',
       },
       'CI3': {
          'accept': ['CvIn'],
-         'bind': 'adc(2)',
+         'bind': 'adc(6)',
       },
       'CI4': {
          'accept': ['CvIn'],
-         'bind': 'adc(3)',
+         'bind': 'adc(7)',
       },
 
       'CO': {
@@ -61,19 +61,19 @@
 
       'P1': {
          'accept': ['Pot'],
-         'bind': 'adc(4)',
+         'bind': 'adc(0)',
       },
       'P2': {
          'accept': ['Pot'],
-         'bind': 'adc(5)',
+         'bind': 'adc(1)',
       },
       'P3': {
          'accept': ['Pot'],
-         'bind': 'adc(6)',
+         'bind': 'adc(2)',
       },
       'P4': {
          'accept': ['Pot'],
-         'bind': 'adc(7)',
+         'bind': 'adc(3)',
       },
 
       'B1': {
